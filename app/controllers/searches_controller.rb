@@ -16,6 +16,5 @@ class SearchesController < ApplicationController
     @venues = body_hash["response"]["venues"]
 
     render 'search'
-
   end
 end
